@@ -12,7 +12,7 @@ header {
 }
 
 .container {
-    width: 95%;
+    width: 75%;
     margin: 0 auto;
     padding: none;
     background: #fff;
@@ -24,11 +24,19 @@ header {
     text-align: center;
 }
 
+.banner img {
+    width: 72px; 
+    height: 72px;
+    margin-top: 50px;
+}
+
 .banner p{
     width: 50%;
     margin: 0 auto;
     padding: 0 10px;
-    font-size: larger;
+    font-weight: 300px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .content {
@@ -50,12 +58,13 @@ header {
 
 .name-form {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-right: 43px;
 }
 
 .name-form .form-group input {
     width: 240px;
+    margin-right: 50px;
 }
 
 .form-group {
@@ -106,6 +115,26 @@ header {
 
 .nation-form select {
     width: 100%;
+}
+
+.name-card {
+    display: flex;
+    margin-right: 43px;
+}
+
+.name-card .form-group input {
+    width: 240px;
+    margin-right: 50px;
+}
+
+.expiry-card {
+    display: flex;
+    margin-right: 43px;
+}
+
+.expiry-card .form-group input {
+    width: 100px;
+    margin-right: 50px;
 }
 
 .submit {
