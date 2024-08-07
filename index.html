@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rrweb</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <b>New rrweb documentary</b>
+    </header>
+    <div class="container">
+        <div class="banner">
+            <h1>B</h1>
+            <h1>Checkout form</h1>
+            <p>Below is an example form built entirely with Bootstrap's form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+        </div>
+        <div class="content">
+            <div class="billing-form">
+                <h2>Billing address</h2>
+                <form>
+                    <div class="name-form">
+                        <div class="form-group">
+                            <label for="firstName">First name</label>
+                            <input type="text" id="firstName">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last name</label>
+                            <input type="text" id="lastName">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email <span>(Optional)</span></label>
+                        <input type="email" id="email" placeholder="you@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" placeholder="1234 Main St">
+                    </div>
+                    <div class="form-group">
+                        <label for="address2">Address 2 <span>(Optional)</span></label>
+                        <input type="text" id="address2" placeholder="Apartment or suite">
+                    </div>
+                    <div class="nation-form">
+                        <div class="form-group">
+                            <label for="country">Country</label>
+                            <select id="country">
+                                <option value="">Choose...</option>
+                                <option value="United States">United States</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="state">State</label>
+                            <select id="state">
+                                <option value="">Choose...</option>
+                                <option value="California">California</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="zip">Zip</label>
+                            <input type="text" id="zip">
+                        </div>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" id="same-address">
+                        <label for="same-address">Shipping address is the same as my billing address</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" id="save-info">
+                        <label for="save-info">Save this information for next time</label>
+                    </div>
+                    <h4>Payment</h4>
+                    <div class="payment-method">
+                        <label>
+                            <input type="radio" name="paymentMethod" value="credit" checked>
+                            Credit card
+                        </label>
+                        <label>
+                            <input type="radio" name="paymentMethod" value="debit">
+                            Debit card
+                        </label>
+                        <label>
+                            <input type="radio" name="paymentMethod" value="paypal">
+                            PayPal
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="cc-name">Name on card</label>
+                        <input type="text" id="cc-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="cc-number">Credit card number</label>
+                        <input type="text" id="cc-number">
+                    </div>
+                    <div class="form-group">
+                        <label for="cc-expiration">Expiration</label>
+                        <input type="text" id="cc-expiration">
+                    </div>
+                    <div class="form-group">
+                        <label for="cc-cvv">CVV</label>
+                        <input type="text" id="cc-cvv">
+                    </div>
+                    <hr>
+                    <button type="submit" class="submit">Continue to checkout</button>
+                </form>
+            </div>
+            <div class="your-cart">
+                <h2>Your cart <span class="badge">3</span></h2>
+                <ul>
+                    <div class="cart-form">
+                        <li><b>Product name</b> <span>$12</span></li>
+                        <li>Brief description</li>
+                    </div>
+                    <div class="cart-form">
+                        <li><b>Second product</b> <span>$8</span></li>
+                        <li>Brief description</li>
+                    </div>
+                    <div class="cart-form">
+                        <li><b>Third item</b> <span>$5</span></li>
+                        <li>Brief description</li>
+                    </div>
+                    <div class="cart-form-promo">
+                        <li class="promo"><b>Promo code</b> <span>- $5</span></li>
+                        <li class="promo">EXAMPLECODE</li>
+                    </div>
+                    <li class="cart-form">Total (USD) <strong>$20</strong></li>
+                </ul>
+                <form class="promo-code">
+                    <input type="text" placeholder="Promo code">
+                    <button type="submit">Redeem</button>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            You can click the replay button to replay your actions.
+        </footer>
+    </div>
+</body>
+</html>

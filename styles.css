@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(17, 16, 62, 0.12);
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    padding: none;
+    background: #fff;
+    margin-top: none;
+}
+
+.banner {
+    margin-top: none;
+    text-align: center;
+}
+
+.banner p{
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 10px;
+    font-size: larger;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+.billing-form {
+    margin-left: 200px;
+    margin-right: 0;
+    width: 50%;
+    background: #fff;
+    padding: 20px;
+}
+
+.billing-form h2 {
+    margin-bottom: 20px;
+}
+
+.name-form {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 43px;
+}
+
+.name-form .form-group input {
+    width: 240px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+}
+
+.form-check {
+    margin-bottom: 15px;
+}
+
+.form-check input {
+    margin-right: 10px;
+}
+
+.payment-method label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.nation-form {
+    display: flex;
+}
+
+.nation-form .form-group {
+    margin-right: 20px;
+}
+
+.nation-form .form-group input {
+    width: 105px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.nation-form .form-group select {
+    width: 200px;
+}
+
+.nation-form select {
+    width: 100%;
+}
+
+.submit {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.your-cart {
+    width: 23%;
+    background: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    margin-right: 200px;
+}
+
+.your-cart h2 {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #6c757d;
+}
+
+.your-cart ul {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.your-cart li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-form-promo {
+    border: 1px solid #4ccdc2;
+    padding: 20px;
+    background: #98f6ee;
+    color: #21c648;
+}
+
+/* .your-cart .promo {
+    background: #b0afaf;
+} */
+
+.cart-form {
+    border: 1px solid #4ccdc2;
+    padding: 20px;
+}
+
+.promo-code {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    width: 92%;
+    padding: 10px;
+    border: 1px solid #4ccdc2;
+}
+
+.promo-code input {
+    width: 90%;
+}
+
+.promo-code button {
+    padding: 10px 20px;
+    border: none;
+    background: #6c757d;
+    color: #fff;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #6c757d;
+}
